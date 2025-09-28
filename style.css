@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+a { text-decoration: none; color: #007bff; }
+.header, .footer {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.header nav a {
+  margin: 0 1rem;
+  color: #fff;
+}
+.login-container { display: flex; justify-content: center; align-items: center; height: 100vh; }
+.login-card { display: flex; background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden; }
+.login-left { background: #f0f4ff; padding: 2rem; display:flex; align-items:center; }
+.login-right { padding: 2rem; }
+.form-group { margin-bottom: 1rem; }
+input, textarea { width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 8px; }
+.btn-primary { background: #007bff; color: white; padding: 0.7rem 1.2rem; border: none; border-radius: 8px; cursor: pointer; transition: background 0.3s; }
+.btn-primary:hover { background: #0056b3; }
+.kanban-board { display: flex; justify-content: space-around; padding: 2rem; }
+.column { background: #fff; flex: 1; margin: 0 1rem; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.task { background: #e0e7ff; padding: 1rem; margin: 0.5rem 0; border-radius: 8px; cursor: grab; transition: transform 0.2s; }
+.task:hover { transform: scale(1.05); }
+.contacto { max-width: 600px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }

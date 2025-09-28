@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablero Kanban</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Tablero Kanban</h1>
+    <nav>
+      <a href="contacto.html">Contáctanos</a>
+      <a href="index.html">Cerrar sesión</a>
+    </nav>
+  </header>
+
+  <main class="kanban-board">
+    <div class="column" id="todo">
+      <h2>Por hacer</h2>
+      <div class="task" draggable="true">Tarea inicial</div>
+    </div>
+    <div class="column" id="doing">
+      <h2>En progreso</h2>
+    </div>
+    <div class="column" id="done">
+      <h2>Hecho</h2>
+    </div>
+  </main>
+
+  <footer class="footer">Proyecto Kanban - TEINCO · 2025</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
